@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".circularActivity">
+
+    <TextView
+        android:id="@+id/tv7"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="103dp"
+
+        android:background="#00BCD4"
+        android:text="text image1"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+      />
+
+    <TextView
+
+        android:id="@+id/tv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="250dp"
+
+        android:background="#E91E63"
+
+        android:maxWidth="260dp"
+        android:maxHeight="125dp"
+
+
+        android:minWidth="100dp"
+        android:minHeight="50dp"
+        android:text="Text 2"
+
+
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        
+        android:layout_marginLeft="25dp"
+        app:layout_constraintLeft_toRightOf="@id/tv7"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
